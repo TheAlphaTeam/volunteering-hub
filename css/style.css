@@ -1,0 +1,26 @@
+ul{
+    padding:15px;
+}
+li{
+    display: inline;
+    margin:14%;
+}
+section{
+    width:250px;
+    height: 300px;  
+}
+form{
+    margin:25px;
+}
+input{
+    margin:10px;
+}
+canvas{
+    position: relative;
+    top:10px;
+    left:225%;
+}
+input{
+    border-radius: 80px;
+    padding: 10px;
+}
