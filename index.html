@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+ <header>
+<img class ="logo" src="img/logo3.png" />
+<nav class="header1">
+  <ul>
+      <a href="./index.html" ><li> Home</li></a>
+      <a href="./aboout-us.html" ><li> About Us</li></a>
+      <a href="./registr.html" ><li> Register</li></a>
+      <a href="#" ><li> Details</li></a>
+  </ul>
+  </nav>
+</header>
+
+  <main>
+        
+    <div class="slideshow-container">
+    
+        <div class="mySlides fade" id="imageSlide1">
+          <div class="numbertext">1 / 3</div>
+          <img class="slidesImages" src="./img/nicole-baster-OJcEMZHoY80-unsplash.jpg" style="width:100%">
+          <div id="opacity"> <div class="text">THERE IS NO IMPOSSIBLE.</div> </div>
+        </div>
+        
+        <div class="mySlides fade" id="imageSlide3">
+          <div class="numbertext">3 / 3</div>
+          <img class="slidesImages" src="./img/remi-walle-UOwvwZ9Dy6w-unsplash.jpg" style="width:100%">
+          <div class="text" id="text3">We Make A Living By What We Get, But We Make A Life By What We Give.</div>
+        </div>
+        
+        <div class="mySlides fade" id="imageSlide2">
+          <div class="numbertext">2 / 3</div>
+          <img class="slidesImages" src="./img/chid.jpg" style="width:100%">
+          
+        </div>
+        
+        <a class="prev" id="previousImage" >&#10094;</a>
+        <a class="next" id="nextImage">&#10095;</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" id="dot1"></span> 
+          <span class="dot" id="dot2"></span> 
+          <span class="dot" id="dot3"></span> 
+        </div>
+        
+    </div>
+    <h1 id="title">Our Projects</h1>
+    
+    <div class="row">
+    
+        <div class="column" onclick="openTab('b1');" >
+          <h1>Give Them a Chance </h1>
+          
+        </div>
+      <div  class="column" onclick="openTab('b2');" >
+          <h1>Sewar</h1>
+          
+      </div>
+        <div class="column" onclick="openTab('b3');" >
+          <h1>Tamkeen</h1>
+      </div>
+    </div>
+    <!-- Full-width columns: (hidden by default) -->
+    <div id="b1" class="containerTab" style="display:none;background-color:#aaa;">
+        <span onclick="this.parentElement.style.display='none'" class="closebottun">&times;</span>
+        <h2>Give them a Chance !</h2>
+           <p> Since there are many Distant villages that lack the basic infrastructure and educational components, in addition to many children who lack the opportunity to learn. This project aiming to give a chance for these children by educating them on four  subjects
+            Arabic, math, science, and coding. And provide the opportunity to deal with hardware & software technologies. The volunteering period will be for just one month for each volunteer.
+            <br>
+            * # of volunteers needed: 108.
+            <br>
+            * Locations: Ruwaished, Safawi, Ma'an, Tafila, Kerak, Al-Gawr
+            <br>
+            * Date:  06/21 to 12/21 <a href="./registr.html"><button class="goToRegister">  Register </button></a>
+          </p>
+    </div>
+    <div id="b2" class="containerTab" style="display:none;background-color:#bbb;">
+        <span onclick="this.parentElement.style.display='none'" class="closebottun">&times;</span>
+        <h2>Sewar</h2>
+        <p> The word "Sewar" was chosen as the name of the volunteer program because the foundation sees in the bracelet a unification of people,
+            like the bracelet that surrounds the hand, in the fight against cancer, which needs the support of the entire community.
+            Volunteers constitute a special part of the care offered by the King Hussein cancer patients, they are simply the lifeblood of the enterprise.
+            <br>
+            Volunteer tasks: <br>
+            * Support patients with various activities that give them relief from treatment. <br>
+            * Fundraising and awareness raising through various campaigns. <br>
+            * Raise people's awareness about cancer prevention and early detection. <br>
+            Requirements: <br>
+            To become a bracelet volunteer, you must be more than 15 years old. <br>
+            About Al Hussein Cancer Foundation and center: <br>
+            The King Hussein Cancer Foundation is a national institution, an independent non-profit organization,<br>
+            founded in 2001 by a royal decree to combat cancer in Jordan and the Middle East. The administration of the foundation's affairs is overseen by <br>
+            a board of Trustees composed of volunteers and experts in the health, economic and financial fields, appointed by royal will and chaired <br>
+            by Her Royal Highness Princess Ghida Talal. <br>
+            The board of trustees oversees the work of: <br>
+            The King Hussein Cancer Foundation - fundraising and development <br>
+            Al Hussein Cancer Center - for research and comprehensive medical care for cancer patients <br>
+            Advanced standards <br>
+            * Accommodation: Jordan <br>
+            * Specialization: All specialties <br>
+            * Age: More than 15 years. <br>
+            * # of volunteers needed : 150. <br>
+            * Date: all the year.
+            <a href="./registr.html"><button class="goToRegister">  Register </button></a>
+          </p>
+    </div>
+    <div id="b3" class="containerTab" style="display:none;background-color:#abb">
+        <span onclick="this.parentElement.style.display='none'" class="closebottun">&times;</span>
+        <h2>Tamkeen</h2>
+        <p>
+          On the premise that the family is the basic unit in the structure of society and its nucleus responsible for social, <br>
+          health, economic and other functions, and considering that family members are partners  in various areas of life. <br>
+          The Tamkeen project works to transform families from poor families into productive families by providing ideas, <br>
+          financial support for projects, and providing the necessary training to possess the skills necessary to <br>
+          operate these projects. <br>
+          This program targets the less developed regions in the north and south of the Kingdom and the Badia. <br>
+          * # of volunteers needed : 300. <br> 
+          * Period: 1 year.
+          <a href="./registr.html"><button class="goToRegister">  Register </button></a>
+        </p>
+    </div>
+    
+    <div class="row">
+        <div class="column" onclick="openTab('b4');" >
+          <h1>Books in the Box</h1>
+        </div>
+        <div class="column" onclick="openTab('b5');" >
+          <h1>project 2</h1>
+        </div>
+        <div class="column" onclick="openTab('b6');" >
+          <h1>project 2</h1>
+        </div>
+    </div>
+    <!-- Full-width columns: (hidden by default) -->
+    <div id="b4" class="containerTab" style="display:none;background-color:#aaa;">
+        <span onclick="this.parentElement.style.display='none'" class="closebottun">&times;</span>
+        <h2>Books in the Box</h2>
+        <p>Collecting new and used stories and books ... to encourage the children of the Syrian refugee <br>
+           camps in (Zaatari and Azraq) to use the quarantine times during the Corona period in reading and developing <br>
+           their skills (such as reading, writing and telling stories among themselves) and developing <br>
+           a love of reading and exploring and discovering their skills <br>
+           It is possible to donate books such as scientific, literary and whatever is useful. <br>
+           * # of volunteers needed : 50. <br>
+           * Period: 3 months
+           <a href="./registr.html"><button class="goToRegister">  Register </button></a>
+          </p>
+    </div>
+    <div id="b5" class="containerTab" style="display:none;background-color:#bbb;">
+        <span onclick="this.parentElement.style.display='none'" class="closebottun">&times;</span>
+        <h2>Box 2</h2>
+        <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat,
+           te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad
+           <a href="./registr.html"><button class="goToRegister">  Register </button></a>
+          </p>
+    </div>
+    <div id="b6" class="containerTab" style="display:none;background-color:#abb">
+        <span onclick="this.parentElement.style.display='none'" class="closebottun">&times;</span>
+        <h2>Box 3</h2>
+        <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat,
+           te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad
+           <a href="./registr.html"><button class="goToRegister">  Register </button></a>
+          </p>
+          </div>
+    
+    <form id="commentForm" >
+      <label for="comment"><h3 id="leave"> Leave a Comment :</h3> </label><br>
+      <textarea id="myTextarea" placeholder="Your text here">
+      </textarea><br>
+      <input type="submit" id="submitbottun1" value="Submit">
+      
+    </form>
+        </main>
+        <script src="./js/home.js"></script>
+ </main>
+ <footer>
+<div class="footer-content">
+    <h3>volunteering-hub</h3>
+    <img src="./img/Screenshot_1.png" alt="">
+    <p>contact us 0796187256</p>
+    <p>Email: TheAlpha_Team@outlook.com</p>
+    <img class="fa" src ="img/facebook.png">
+    <img class="fa" src ="img/twitter.png">
+    <img class="fa" src ="img/youtube.png">
+    <img class="fa" src ="img/linkedin.png">
+    <img class="fa" src ="img/whatsapp.png">
+    <img class="fa" src ="./img/instagram.png">
+        </div>
+        <div class="footer-bottom">
+            <p style="font-family: 'Noto Serif',Georgia,serif;">copyright &copy;2021 volunteering-hub. designed by <span>TheAlphaTeam</span></p>
+        </div>
+    </footer>
+</body>
+</html>
