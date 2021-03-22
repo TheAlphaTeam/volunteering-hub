@@ -1,0 +1,85 @@
+
+body{
+    background-image: url(https://s3.img-b.com/image/private/t_base,c_pad,f_auto,dpr_2,w_480,h_480/product/shaw/shaw-cs37p-00100-9459802.jpg);
+}
+#imageList li{
+    list-style:none;
+    float:left;
+    margin-top: 80px;
+   margin-bottom: 80px;
+}
+
+#imageList img{
+display: block;
+border-radius: 50%;
+width: 200px;
+padding: 5%;
+margin: 15px;
+margin-left: 50px;
+text-align:center;
+background-color: rgba(237,151,40,255);
+}
+
+.pic0:hover {
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);      
+}
+
+main section .Bio{
+float:right ;
+padding: 10px;
+margin-bottom: 30px;
+
+}
+
+main .Pic{
+    float:left;
+    border-radius: 80%;
+    width: 100px;
+    margin: 10px;
+}
+
+
+
+main .bio{
+    
+    position: relative;
+    left: -80px;
+    top: 25px;
+    text-align:left;
+    bottom: 30px;
+    margin-left: 200px;
+    font-size: larger;
+    font-style: italic;
+    line-height: 1.4;
+    
+    
+}
+
+
+#messageBox{
+    width: 790px;
+    height: 200px;
+    border: 3px solid rgb(234,149,49);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 3%;
+}
+
+  
+#save{
+  background-color: rgb(234,149,49);
+  color: white;
+  font-size: x-large;
+  border-radius: 8px ;
+  font-family: 'Dancing Script', cursive;
+  margin-left: 3%;
+  margin-bottom: 20px;
+  
+}
+
+#save:hover{
+    background-color: antiquewhite;
+    color: rgb(234,149,49);
+}
