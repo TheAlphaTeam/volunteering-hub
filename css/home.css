@@ -103,12 +103,7 @@
      animation-name: fade;
      animation-duration: 1.5s;
    }
-   
-   /* @-webkit-keyframes fade {
-     from {opacity: .5} 
-     to {opacity: 1}
-   } */
-   
+
    @keyframes fade {
      from {opacity: .8} 
      to {opacity: 1}
@@ -134,8 +129,8 @@
        width: 30%;
        padding: 10px;
        height: 300px; 
-       margin-left: 2.5%;
-       margin-top: 30px;
+       margin-left: 13%;
+       margin-top: 50px;
        background-image:url(../img/wood.jpg);
        font-size: xxx-large;
        text-align: center;
