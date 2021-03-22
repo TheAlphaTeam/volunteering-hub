@@ -1,4 +1,4 @@
-function openTab(tabName) {
+function openTab1(tabName) {
   let closebottun = document.getElementsByClassName('containerTab');
   let closebottun1 = document.getElementsByClassName('containerTab1');
   for (let i = 0; i < closebottun1.length; i++) {

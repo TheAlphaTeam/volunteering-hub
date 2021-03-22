@@ -57,10 +57,8 @@ showSlides(1);
 // Hide all elements with class="containerTab", except for the one that matches the clickable grid column
 function openTab(tabName) {
   let closebottun = document.getElementsByClassName('containerTab');
-  let closebottun1 = document.getElementsByClassName('containerTab1');
   for (let i = 0; i < closebottun.length; i++) {
     closebottun[i].style.display = 'none';
-    closebottun1[i].style.display = 'none';
   }
   document.getElementById(tabName).style.display = 'block';
 }
