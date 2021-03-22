@@ -1,10 +1,14 @@
 *{ 
  box-sizing: border-box;
+ 
 }
-  .logo{
+body{
+    background-image: url(https://s3.img-b.com/image/private/t_base,c_pad,f_auto,dpr_2,w_480,h_480/product/shaw/shaw-cs37p-00100-9459802.jpg);
+}
+.logo{
       width: 400px;
-  }
-  header{
+}
+header{
       text-align: center;
       background-color: white;
       margin-bottom: 3px;
@@ -23,6 +27,7 @@
       position: sticky;
       top: 0;
   }
+  
 nav ul li{
     display:inline-block;
     border-right:1.5px solid ;
@@ -84,7 +89,44 @@ li a{
     text-align: center;
     color:rgb(234,149,49);
 }
-#myChart{
-    width: 50%;
-    height: 400px;
+#chart{
+    width: 800px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 20%;
+    border-bottom: 1.5px solid rgb(234,149,49);
+    margin-bottom: 40px ;
+}
+#informationForm{
+    font-family: 'Dancing Script', cursive; 
+    font-size: x-large;
+    
+    margin-bottom: 40px ;
+
+}
+.input{
+    padding: 10px;
+    width: 400px;
+    margin: 30px;
+    border-top-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border: 1.9px solid rgb(234,149,49);
+    background-color: antiquewhite;
+    
+   
+}
+#input{
+    font-size: large;
+    font-family: 'Dancing Script', cursive; 
+    background-color: rgb(234,149,49);
+    color: white;
+    width: 150px;
+    margin-left: 150px;
+}
+
+#legend{
+    margin-top: 40px;
+    margin-left: 40px;
+    color: rgb(234,149,49);
+    
 }

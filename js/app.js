@@ -28,5 +28,3 @@ function save(event) {
 //   localStorage.setItem('Home Page comment',commentArray );
 
 // }
-
-

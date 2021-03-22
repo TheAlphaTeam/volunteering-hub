@@ -32,7 +32,7 @@ new Chart(document.getElementById('myChart'), {
     labels: ['Arabic', 'Math', 'Science', 'Coding'],
     datasets: [{
       label: 'Population (millions)',
-      backgroundColor: ['#3e95cd', '#8e5ea2','#3cba9f','#e8c3b9'],
+      backgroundColor: ['#dcbc94', '#ec942c','#b47424','#f2e4d7'],
       data: [localStorage.getItem('arabic'),localStorage.getItem('math'),localStorage.getItem('science'),localStorage.getItem('coding')]
     //   data: [arabic,math,science,coding]
     }]
