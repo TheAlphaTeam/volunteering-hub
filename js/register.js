@@ -26,7 +26,6 @@ function volunteerInformation(event){
   contact.push( document.getElementById('email').value);
   localStorage.setItem('contact', JSON.stringify(contact));
 }
-// coding=parseInt(localStorage.getItem('subject'));
 new Chart(document.getElementById('myChart'), {
   type: 'pie',
   data: {
