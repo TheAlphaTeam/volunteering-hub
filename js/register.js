@@ -2,7 +2,6 @@
 let count=0;
 let info=[];
 let contact=[];
-
 let form=document.getElementById('informationForm');
 let project=document.getElementById('project');
 let email=document.getElementById('email');
