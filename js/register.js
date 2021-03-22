@@ -71,4 +71,3 @@ function getEmail(){
   return emails;
 }
 
-
