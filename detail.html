@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class ="logo" src="img/logo3.png" />
+        <nav class="header1">
+          <ul>
+              <a href="./index.html" ><li> Home</li></a>
+              <a href="./aboout-us.html" ><li> About Us</li></a>
+              <a href="./registr.html" ><li> Register</li></a>
+              <a href="#" ><li> Details</li></a>
+          </ul>
+          </nav>
+        </header>
+<main>
+    <div style="text-align:center">
+        <h2>Registered</h2>
+        <p>Click on the boxes below:</p>
+      </div>
+      
+      <!-- Three columns -->
+      <div class="row">
+        <div class="column0" onclick="openTab('bar1');" style="background-image: url(https://placehold.it/300x500/ddd);">
+         Registered  1
+        </div>
+        <div class="column1" onclick="openTab('bar2');" style="background-image: url(https://placehold.it/300x500/ddd);">
+         Registered 2
+        </div>
+      </div>
+
+      <div id="bar1" class="containerTab" style="display:none;background:gray">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Registered 1</h2>
+        <p>He said: I am excited and feel that I have received a great reward for my efforts, knowing that I have experience volunteering for various tournaments or charitable projects.
+          </p>
+      </div>
+      
+      <div id="bar2" class="containerTab1" style="display:none;background:gray">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Registered 2</h2>
+        <p>He spoke with great happiness and pride about joining the youth volunteer constellation, adding that it is an honor for him to work in any location to serve his country .. and it is a religion in his neck .. considering that the experience of volunteering will give him great experiences and good relations with his surroundings, as well as acquiring additional personal skills, such as the need to show With flexibility, good spirit and good manners during his dealings with everyone.</p>
+      </div>
+
+      <div class="row">
+        <div class="column0" onclick="openTab('bar3');" style="background-image: url(https://placehold.it/300x500/ddd);">
+         Registered 3
+        </div>
+        <div class="column1" onclick="openTab('bar4');" style="background-image: url(https://placehold.it/300x500/ddd);">
+          Registered 4
+        </div>
+      </div>
+
+      <div id="bar3" class="containerTab" style="display:none;background:grey">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Registered 3</h2>
+        <p>Volunteering is the stepping stone to the salvation of Jordanian society in the Corona crisis
+          The volunteers supported the state financially and morally in its war against containing the epidemic</p>
+      </div>
+      
+      <div id="bar4" class="containerTab1" style="display:none;background:grey">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <h2>Registered 4</h2>
+        <p>I express my appreciation to the volunteers in Jordan and all over the world who embody the meanings of sacrifice, sacrifice and giving for the sake of their societies and humanity .. Voluntary work is the true picture of the progress and advancement of societies</p>
+      </div>
+
+      
+
+</main>
+    
+<footer>
+    <div class="footer-content">
+        <h3>volunteering-hub</h3>
+        <img src="./img/Screenshot_1.png" alt="">
+        <p>contact us 0796187256</p>
+        <p>Email: TheAlpha_Team@outlook.com</p>
+        <img class="fa" src ="img/facebook.png">
+        <img class="fa" src ="img/twitter.png">
+        <img class="fa" src ="img/youtube.png">
+        <img class="fa" src ="img/linkedin.png">
+        <img class="fa" src ="img/whatsapp.png">
+        <img class="fa" src ="./img/instagram.png">
+            </div>
+            <div class="footer-bottom">
+                <p style="font-family: 'Noto Serif',Georgia,serif;">copyright &copy;2021 volunteering-hub. designed by <span>TheAlphaTeam</span></p>
+            </div>
+        </footer>
+      
+    <script src="./js/home.js"></script>
+</body>
+</html>
+
+
+
