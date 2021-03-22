@@ -17,9 +17,9 @@ function volunteerInformation(event){
 
   }else if(project.value==='sewar'){
 
-    localStorage.setItem('sewar',JSON.stringify(count+=1+getData4()));
+    localStorage.setItem('sewar',JSON.stringify(count+=1+getData3()));
   }else if(project.value==='books in the box'){
-    localStorage.setItem('books in the box',JSON.stringify(count+=1+getData3()));
+    localStorage.setItem('books in the box',JSON.stringify(count+=1+getData4()));
   }
   if(localStorage.getItem('names')!==null){
     contact=getEmail();

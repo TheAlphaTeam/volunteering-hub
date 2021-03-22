@@ -55,6 +55,7 @@ li a{
     text-align: center;
     border-top: 2px solid;
     border-top-color: rgba(237,151,40,255);
+    padding-bottom: 0px;
 
 }
 
@@ -89,6 +90,9 @@ li a{
     text-align: center;
     color:rgb(234,149,49);
 }
+footer{
+    margin-top: 180px;
+}
 #chart{
     width: 800px;
     height: 500px;
@@ -98,11 +102,13 @@ li a{
     margin-bottom: 40px ;
 }
 #informationForm{
+    display: inline-block;
     font-family: 'Dancing Script', cursive; 
     font-size: x-large;
-    
+    margin-left: 34%;
     margin-bottom: 40px ;
-
+    border-bottom: 1.5px solid rgb(234,149,49);
+    padding-bottom: 45px;
 }
 .input{
     padding: 10px;

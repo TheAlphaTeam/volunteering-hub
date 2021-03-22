@@ -63,25 +63,3 @@ function openTab(tabName) {
   document.getElementById(tabName).style.display = 'block';
 }
 
-
-// let counter ;
-// let commentdata = localStorage.getItem('Home Page comment');
-// let getData = JSON.parse(commentdata);
-// let commentArray = [getData,];
-// if (commentArray){
-//   counter = commentArray.length-1;
-// } else {
-//   counter = 0 ;
-// }
-// let comment = document.getElementById('commentForm');
-// comment.addEventListener('submit', toLocal);
-// function toLocal(event){
-//   event.preventDefault();
-
-//   if(counter){
-//     commentArray[counter] = JSON.stringify(document.getElementById('myTextarea').value);
-//   }
-//   console.log(document.getElementById('myTextarea').value);
-//   localStorage.setItem('Home Page comment',commentArray );
-//   counter++;
-// }
