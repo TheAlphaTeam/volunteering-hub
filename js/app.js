@@ -7,6 +7,7 @@ function toLocal(event){
   if(localStorage.getItem('homeComment')!==null){
     comments=getComment();
   }
+
   comments.push(box.value);
   localStorage.setItem('homeComment',JSON.stringify(comments));
 
@@ -17,3 +18,5 @@ function getComment(){
   return comment;
 
 }
+
+

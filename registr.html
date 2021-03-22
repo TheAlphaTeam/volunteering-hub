@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css"> 
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
     <title>Register</title>
@@ -24,16 +24,18 @@
       </header>
 
     <main>
-        <section>
-            <canvas id="myChart" width="400" height="300" ></canvas>
+        <section id="chart">
+            <canvas id="myChart" ></canvas>
         </section>
         <form id="informationForm">
-            <legend> You can make a difference</legend>
-            <input id ="project" type="text" placeholder="what to vlounteer" required="required">
-            <input id="userName" type="text" placeholder="your first and last name" required="required">
+
+
+            <legend id="legend"> You Can Make a Difference</legend>
+            <input class="input" id ="project" name="subject" type="text" placeholder="what to vlounteer" required="required">
+            <input class="input" id="userName" type="text" placeholder="your first and last name" required="required">
             <br>
-            <input id="email" type="text" placeholder="your email" required="required">
-            <input type="submit" value="Submit">
+            <input class="input" id="email" type="text" placeholder="your email" required="required">
+            <input id="input" class="input" type="submit" value="Submit">
         </form>
 
 

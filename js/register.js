@@ -38,8 +38,10 @@ new Chart(document.getElementById('myChart'), {
     labels: ['give them a chance', 'sewar', 'tamkeen', 'books in the box'],
     datasets: [{
       label: 'Population (millions)',
-      backgroundColor: ['#3e95cd', '#8e5ea2','#3cba9f','#e8c3b9'],
+
+      backgroundColor: ['#dcbc94', '#ec942c','#b47424','#f2e4d7'],
       data: [localStorage.getItem('give them a chance'),localStorage.getItem('sewar'),localStorage.getItem('tamkeen'),localStorage.getItem('books in the box')]
+
     }]
   },
   options: {
