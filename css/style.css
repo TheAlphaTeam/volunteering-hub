@@ -84,3 +84,7 @@ li a{
     text-align: center;
     color:rgb(234,149,49);
 }
+#myChart{
+    width: 50%;
+    height: 400px;
+}

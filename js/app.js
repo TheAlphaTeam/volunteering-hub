@@ -26,7 +26,7 @@ function save(event) {
 //   }
 //   console.log(document.getElementById('myTextarea').value);
 //   localStorage.setItem('Home Page comment',commentArray );
-  
+
 // }
 
 
