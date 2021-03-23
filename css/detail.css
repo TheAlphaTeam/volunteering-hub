@@ -5,9 +5,18 @@
   body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
- 
+     background-image: url("https://s3.img-b.com/image/private/t_base,c_pad,f_auto,dpr_2,w_480,h_480/product/shaw/shaw-cs37p-00100-9459802.jpg");
   }
+   h2{
+       font-size: 40px;
+       font-family: 'Times New Roman', Times, serif;
+       background-image: url("https://img.freepik.com/free-photo/hand-painted-watercolor-background-with-sky-clouds-shape_24972-1095.jpg?size=626&ext=jpg");
+       background-size: cover;
   
+   }
+
+
+
   /* The grid: Three equal columns that floats next to each other */
   .column0 {
     float: left;
@@ -16,10 +25,12 @@
     width: 45%;
     padding: 50px;
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
     cursor: pointer;
-    color: white;
-    margin-bottom: 10px;
+    color: rgb(188, 212, 212);
+   
+    /*color: white;*/
+    
   }
   .column1 {
     float: right;
@@ -35,13 +46,14 @@
   
   .containerTab {
     padding: 20px;
-    color: white;
+    color: rgb(100, 28, 28);
     margin-bottom: 5px;
     overflow: scroll;
     width: 45%;
     position: relative;
     left: 40px;
     height: 200px;
+  font-size: 30px;
   }
 
   .containerTab1 {
@@ -50,8 +62,8 @@
     margin-bottom: 5px;
     overflow: scroll;
     width: 45%;
-    margin-left: 52%;
-  
+    margin-left: 521%;
+   
     height: 200px;
   }
 
