@@ -3,7 +3,7 @@
    }
    
    body {
-     font-family: 'Dancing Script', cursive;
+     font-family: 'Barlow', sans-serif;
     color: rgb(234,149,49); 
     background-image: url(https://s3.img-b.com/image/private/t_base,c_pad,f_auto,dpr_2,w_480,h_480/product/shaw/shaw-cs37p-00100-9459802.jpg);
    }
@@ -118,6 +118,7 @@
        padding: 50px;
        text-align: center;
        font-size: 80px ;
+       font-family: 'Dancing Script', cursive;
        
    }
    .row{
@@ -136,6 +137,13 @@
        text-align: center;
        border-top-right-radius: 20px;
        border-bottom-left-radius: 20px;
+       font-weight: bold;
+   }
+   #proj1{
+     
+     font-size: 45px;
+     font-weight: bolder;
+     
    }
    .column:hover{
      width: 30%;
