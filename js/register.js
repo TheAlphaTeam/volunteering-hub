@@ -44,7 +44,7 @@ new Chart(document.getElementById('myChart'), {
     datasets: [{
       label: 'Population (millions)',
 
-      backgroundColor: ['#dcbc94', '#ec942c','#b47424','#f2e4d7'],
+      backgroundColor: ['#1e81b0', '#EEA47FFF','#ED2B33FF','#00203FFF'],
       data: [localStorage.getItem('give them a chance'),localStorage.getItem('sewar'),localStorage.getItem('tamkeen'),localStorage.getItem('books in the box')]
 
     }]
