@@ -196,34 +196,6 @@
        font-size: 35px;
        cursor: pointer;
    }
-   #commentForm{
-     display: block;
-     width: 800px;
-     height: 300px;
-     margin-left: 5%;
-     margin:30px;
-   
-   }
-   #myTextarea{
-    width: 790px;
-    height: 200px;
-    border: 3px solid rgb(234,149,49);
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
-   
-   }
-   #leave{
-     font-size: xx-large;
-     
-   }
-   #submitbottun1{
-   background-color: rgb(234,149,49);
-   color: white;
-   font-size: x-large;
-   border-radius: 8px ;
-   font-family: 'Dancing Script', cursive;
-   }
-   #submitbottun1:hover{
-     background-color: antiquewhite;
-     color: rgb(234,149,49);
-   }
+  footer{
+    margin-top: 200px
+  }
