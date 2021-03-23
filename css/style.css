@@ -35,7 +35,7 @@ nav ul li{
     padding: 0px 70px ;
     font-weight: bold;
     line-height: 40px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Barlow', sans-serif;
     font-size: 35px;
 }
 nav ul li:hover{
@@ -70,9 +70,10 @@ li a{
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Barlow', sans-serif;
     font-size: 20px;
     color:rgb(234,149,49);
+    font-weight: bolder;
 }
 .fa{
     width: 65px;
@@ -83,7 +84,7 @@ li a{
 
 .footer-bottom{
     background:white;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Barlow', sans-serif;
     font-size: 20px;
     width: 100%;
     padding: 15px 0;
@@ -92,6 +93,11 @@ li a{
 }
 footer{
     margin-top: 180px;
+    clear: both;
+}
+footer a {
+    text-decoration: none;
+    color: rgb(234,149,49);
 }
 #chart{
     width: 800px;
@@ -103,7 +109,7 @@ footer{
 }
 #informationForm{
     display: inline-block;
-    font-family: 'Dancing Script', cursive; 
+    font-family: 'Barlow', sans-serif; 
     font-size: x-large;
     margin-left: 34%;
     margin-bottom: 40px ;
@@ -118,12 +124,11 @@ footer{
     border-bottom-left-radius: 14px;
     border: 1.9px solid rgb(234,149,49);
     background-color: antiquewhite;
-    
-   
 }
+
 #input{
     font-size: large;
-    font-family: 'Dancing Script', cursive; 
+    font-family: 'Barlow', sans-serif;
     background-color: rgb(234,149,49);
     color: white;
     width: 150px;
