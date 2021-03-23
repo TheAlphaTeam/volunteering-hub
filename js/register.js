@@ -3,38 +3,45 @@ let count=0;
 let info=[];
 let contact=[];
 let form=document.getElementById('informationForm');
-let subject=document.getElementById('subject');
+let project=document.getElementById('project');
 let email=document.getElementById('email');
 let userName=document.getElementById('userName');
 form.addEventListener('submit', volunteerInformation);
 function volunteerInformation(event){
-  if(document.getElementById('subject').value==='arabic'){
-    localStorage.setItem('arabic',JSON.stringify(count+=1+getData1()));
-  }else if(document.getElementById('subject').value==='math'){
-    localStorage.setItem('math',JSON.stringify(count+=1+getData2()));
+  let counter=0;
+  // event.preventDefault();
+  if(project.value==='give them a chance'){
+    localStorage.setItem('give them a chance',JSON.stringify(count+=1+getData1()));
+  }else if(project.value==='tamkeen'){
+    localStorage.setItem('tamkeen',JSON.stringify(count+=1+getData2()));
 
-  }else if(document.getElementById('subject').value==='science'){
+  }else if(project.value==='sewar'){
 
-    localStorage.setItem('science',JSON.stringify(count+=1+getData4()));
-  }else if( document.getElementById('subject').value==='coding'){
-    localStorage.setItem('coding',JSON.stringify(count+=1+getData3()));
+    localStorage.setItem('sewar',JSON.stringify(count+=1+getData3()));
+  }else if(project.value==='books in the box'){
+    localStorage.setItem('books in the box',JSON.stringify(count+=1+getData4()));
   }
-  info=getNames();
-  contact=getEmail();
-  info.push( document.getElementById('userName').value);
+  if(localStorage.getItem('names')!==null){
+    contact=getEmail();
+    info=getNames();
+  }
+counter++;
+  info.push(userName.value);
   localStorage.setItem('names', JSON.stringify(info));
-  contact.push( document.getElementById('email').value);
+  contact.push(email.value);
   localStorage.setItem('contact', JSON.stringify(contact));
+
 }
 new Chart(document.getElementById('myChart'), {
   type: 'pie',
   data: {
-    labels: ['Arabic', 'Math', 'Science', 'Coding'],
+    labels: ['give them a chance', 'sewar', 'tamkeen', 'books in the box'],
     datasets: [{
       label: 'Population (millions)',
-      backgroundColor: ['#3e95cd', '#8e5ea2','#3cba9f','#e8c3b9'],
-      data: [localStorage.getItem('arabic'),localStorage.getItem('math'),localStorage.getItem('science'),localStorage.getItem('coding')]
-    //   data: [arabic,math,science,coding]
+
+      backgroundColor: ['#dcbc94', '#ec942c','#b47424','#f2e4d7'],
+      data: [localStorage.getItem('give them a chance'),localStorage.getItem('sewar'),localStorage.getItem('tamkeen'),localStorage.getItem('books in the box')]
+
     }]
   },
   options: {
@@ -45,20 +52,20 @@ new Chart(document.getElementById('myChart'), {
   }
 });
 function getData1(){
-  let arabic=JSON.parse(localStorage.getItem('arabic'));
-  return arabic;
+  let chanceCounter=JSON.parse(localStorage.getItem('give them a chance'));
+  return chanceCounter;
 }
 function getData2(){
-  let math=JSON.parse(localStorage.getItem('math'));
-  return math;
+  let tamkeenCounter=JSON.parse(localStorage.getItem('tamkeen'));
+  return tamkeenCounter;
 }
 function getData3(){
-  let coding=JSON.parse(localStorage.getItem('coding'));
-  return coding;
+  let sewarCounter=JSON.parse(localStorage.getItem('sewar'));
+  return sewarCounter;
 }
 function getData4(){
-  let science=JSON.parse(localStorage.getItem('science'));
-  return science;
+  let booksCounter=JSON.parse(localStorage.getItem('books in the box'));
+  return booksCounter;
 }
 function getNames(){
   let names=JSON.parse(localStorage.getItem('names'));
@@ -67,8 +74,6 @@ function getNames(){
 }
 function getEmail(){
   let emails=JSON.parse(localStorage.getItem('contact'));
-  info.push(emails);
+  contact.push(emails);
   return emails;
 }
-
-
