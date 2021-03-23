@@ -5,62 +5,68 @@
   body {
     
     margin: 0;
-    font-family: cursive
-     background-image  url("https://s3.img-b.com/image/private/t_base,c_pad,f_auto,dpr_2,w_480,h_480/product/shaw/shaw-cs37p-00100-9459802.jpg");
-  }
-  
-
-   h2{
-    top: 0;
-    
-    font-family: cursive ;
-    background-image: url(https://cdn3.vectorstock.com/i/1000x1000/03/67/vintage-wallpaper-background-vector-1610367.jpg);
-    color: ivorys;
-    background-position: center;
-    
-    border: 2px solid;
-    border-top-color: rgba(237,151,40,255);
-    border-bottom-color: rgba(237,151,40,255);
-    border-left-color: white;
-    border-right-color: white;
-    width: 100%;
-    height: 150px;
-    padding: 60px;
-  text-align: center;
-
-  color: rgb(12, 11, 11);
-  font-size: 30px;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(234,149,49); 
+    background-image : url("https://s3.img-b.com/image/private/t_base,c_pad,f_auto,dpr_2,w_480,h_480/product/shaw/shaw-cs37p-00100-9459802.jpg");
 }
+ h1{
+   margin-top: 100px;
+   text-align: center;
+   margin-bottom: 100px;
+   font-size: xxx-large;
+   font-family: 'Dancing Script', cursive;
+ } 
 
+  h2{
+    font-family: 'Barlow', sans-serif;
+    text-align: center;
+    color: rgb(234,149,49); 
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+ li {
+   list-style: decimal;
+   margin-left: 8px;
+ }
 
 
   /* The grid: Three equal columns that floats next to each other */
   .column0 {
     float: left;
+    width: 35%;
+    height: 190px;
     position: relative;
-    left: 40px;
-    width: 50%;
+    left: 130px;
     padding: 50px;
     text-align: center;
     font-size: 27px;
     cursor: pointer;
-    color: rgb(188, 212, 212);
-    font-family: cursive ;
-   
-    /*color: white;*/
-    
+    background-image: url(/img/wood.jpg);
+    border: 2px solid rgb(234,149,49); 
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-repeat: no-repeat ;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
   .column1 {
     float: right;
     position: relative;
-    right: 40px;
-    width: 50%;
+    right: 130px;
+    width: 35%;
+    height: 190px;
     padding: 50px;
     text-align: center;
     font-size: 25px;
     cursor: pointer;
-    color: white;
-    font-family: cursive
+    background-image: url(/img/wood.jpg);
+    border: 2px solid rgb(234,149,49); 
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-repeat: no-repeat ;
+    margin-bottom: 15px;
+    margin-top: 15px;
 
   }
   
@@ -69,24 +75,31 @@
     color: rgb(14, 13, 13);
     margin-bottom: 5px;
     overflow: scroll;
-    width: 43%;
-    margin-left: 91px;
+    width: 35%;
+    margin-left: 131px;
     height: 200px;
-  font-size: 20px;
-  font-family: cursive;
+   font-size: 25px;
+   background-color: #bbb;
+   border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1.9px solid white;
+    display:none;
   }
 
   .containerTab1 {
     padding: 20px;
     color: rgb(14, 13, 13);
     margin-bottom: 5px;
-    overflow: scroll;
-    width: 42%;
-    margin-left: 51%;
-
-    font-family: cursive;
+    overflow:  scroll;
+    width: 35%;
+    margin-left: 55.5%;
     height: 200px;
-    font-size: 20px;
+    font-size: 25px;
+    background-color: #bbb;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1.9px solid white;
+    display:none;
   }
 
   /* Clear floats after the columns */

@@ -13,8 +13,8 @@
    
    .slidesImages {
    vertical-align: middle;
-   width: 960px;
-   height: 450px;
+   width: 100%;
+   height: 500px;
    }
    
    /* Slideshow container */
@@ -137,6 +137,7 @@
        text-align: center;
        border-top-right-radius: 20px;
        border-bottom-left-radius: 20px;
+       border: 2px solid rgb(234,149,49) ;
        font-weight: bold;
    }
    #proj1{
@@ -182,6 +183,8 @@
        border-top-right-radius: 30px;
        border-bottom-left-radius: 30px;
        border: 2px solid rgb(234,149,49);
+       display:none;
+       background-color:#aaa;
        
    }
    .goToRegister{

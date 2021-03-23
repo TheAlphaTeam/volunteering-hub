@@ -56,10 +56,21 @@ main .bio{
     font-style: italic;
     line-height: 1.4;
     
-    
+}
+.alshababaltaibah{
+    font-size: x-large; 
+    font-family: 'Dancing Script', cursive; 
+    color: rgb(234,149,49);
+    position: relative; 
+    top: 20px;
 }
 
-
+#legend{
+    font-size:xx-large;
+    font-family:'Barlow', sans-serif;  
+    color:rgb(234,149,49) ; 
+    margin-left: 3%;
+}
 #messageBox{
     width: 790px;
     height: 200px;
