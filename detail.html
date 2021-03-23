@@ -28,53 +28,56 @@
         </header>
 <main>
     <div style="text-align:center">
-        <h2>Registered </h2>
-        
+        <h2>Our Registered Team</h2>
+
       </div>
       
       
       <div class="row">
-        <div class="column0" onclick="openTab1('bar1');" style="background-image: url(https://image.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg);">
-        Give them a chance
+        <div class="column0" onclick="openTab1('bar1');" >
+         <h2>Give Them a Chnace</h2> 
         </div>
-        <div class="column1" onclick="openTab1('bar2');" style="background-image: url(https://image.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg);">
-        Sewar
+        <div class="column1" onclick="openTab1('bar2');" >
+          <h2>Sewar</h2>
+
         </div>
       </div>
 
       <div id="bar1" class="containerTab" style="display:none;background:none">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        <h3>Give them a chance</h3>
-        <p>He said: I am excited and feel that I have received a great reward for my efforts, knowing that I have experience volunteering for various tournaments or charitable projects.
+
+        <p id ="giveAchance">
+
           </p>
       </div>
       
       <div id="bar2" class="containerTab1" style="display:none;background:none">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-       
-        <p>He spoke with great happiness and pride about joining the youth volunteer constellation, adding that it is an honor for him to work in any location to serve his country .. and it is a religion in his neck .. considering that the experience of volunteering will give him great experiences and good relations with his surroundings, as well as acquiring additional personal skills, such as the need to show With flexibility, good spirit and good manners during his dealings with everyone.</p>
+        <p id ="sewar"></p>
       </div>
 
       <div class="row">
-        <div class="column0" onclick="openTab1('bar3');" style="background-image: url(https://image.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg);">
-        Tamkeen
+        <div class="column0" onclick="openTab1('bar3');" >
+         <h2>Tamkeen</h2> 
         </div>
-        <div class="column1" onclick="openTab1('bar4');" style="background-image: url(https://image.freepik.com/free-photo/wall-wallpaper-concrete-colored-painted-textured-concept_53876-31799.jpg);">
-          Books in box
+        <div class="column1" onclick="openTab1('bar4');" >
+         <h2>Books in the box</h2> 
+
         </div>
       </div>
 
       <div id="bar3" class="containerTab" style="display: none;background:none">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        
-        <p>Volunteering is the stepping stone to the salvation of Jordanian society in the Corona crisis
-          The volunteers supported the state financially and morally in its war against containing the epidemic</p>
+
+        <p  id ="tamkeen"></p>
+
       </div>
       
       <div id="bar4" class="containerTab1" style="display:none;background:none">
         <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-       
-        <p>I express my appreciation to the volunteers in Jordan and all over the world who embody the meanings of sacrifice, sacrifice and giving for the sake of their societies and humanity .. Voluntary work is the true picture of the progress and advancement of societies</p>
+
+        <p id ="books"> </p>
+
       </div>
 
       
@@ -99,10 +102,12 @@
                 <p>copyright &copy;2021 volunteering-hub. designed by <span>TheAlphaTeam</span></p>
             </div>
         </footer>
-      
     <script src="./js/detail.js"></script>
+    <script src="./js/storge.js"></script>
 </body>
 </html>
+
+
 
 
 

@@ -2,11 +2,13 @@
 let count=0;
 let info=[];
 let contact=[];
+let projectsList=[];
 let form=document.getElementById('informationForm');
 let project=document.getElementById('project');
 let email=document.getElementById('email');
 let userName=document.getElementById('userName');
 form.addEventListener('submit', volunteerInformation);
+
 function volunteerInformation(event){
   let counter=0;
   // event.preventDefault();
@@ -24,9 +26,12 @@ function volunteerInformation(event){
   if(localStorage.getItem('names')!==null){
     contact=getEmail();
     info=getNames();
+    projectsList=getProjects();
   }
-counter++;
-  info.push(userName.value);
+  counter++;
+  projectsList.push(project.value);
+  localStorage.setItem('projectListing', JSON.stringify(projectsList));
+  info.push(userName.value+' '+project.value );
   localStorage.setItem('names', JSON.stringify(info));
   contact.push(email.value);
   localStorage.setItem('contact', JSON.stringify(contact));
@@ -76,4 +81,9 @@ function getEmail(){
   let emails=JSON.parse(localStorage.getItem('contact'));
   contact.push(emails);
   return emails;
+}
+function getProjects(){
+  let projectNames=JSON.parse(localStorage.getItem('projectListing'));
+  projectsList.push(projectNames);
+  return projectNames;
 }
