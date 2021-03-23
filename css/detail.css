@@ -42,7 +42,7 @@
     text-align: center;
     font-size: 27px;
     cursor: pointer;
-    background-image: url(/img/wood.jpg);
+    background-image: url(../img/wood.jpg);
     border: 2px solid rgb(234,149,49); 
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -60,7 +60,7 @@
     text-align: center;
     font-size: 25px;
     cursor: pointer;
-    background-image: url(/img/wood.jpg);
+    background-image: url(../img/wood.jpg);
     border: 2px solid rgb(234,149,49); 
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
