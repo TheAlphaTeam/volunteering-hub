@@ -13,9 +13,10 @@ What make you care is that you are already care about hleping others.
 ### In:
 
 * The web app will provide information to the users about projects where he can volunteer in.
-* The web app will alowe the user to register in any projects he want.
+* The web app will allow the user to register in any projects he want.
 * Users will be able to leave a comment or a feedback.
-* Users will be able to see the status of every project through a pi chart.
+* Users will be able to see the stats of every project through a pi chart.
+* User will be able to see the names of the volunteers of each project.(SG)
 
 ### Out:
 
