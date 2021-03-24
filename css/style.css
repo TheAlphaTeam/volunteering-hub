@@ -2,6 +2,7 @@
  box-sizing: border-box;
  
 }
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lobster+Two:wght@700&display=swap');
 body{
     background-image: url(https://s3.img-b.com/image/private/t_base,c_pad,f_auto,dpr_2,w_480,h_480/product/shaw/shaw-cs37p-00100-9459802.jpg);
 }
@@ -35,7 +36,8 @@ nav ul li{
     padding: 0px 70px ;
     font-weight: bold;
     line-height: 40px;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Bangers', cursive;
+    font-family: 'Lobster Two', cursive;
     font-size: 35px;
 }
 nav ul li:hover{

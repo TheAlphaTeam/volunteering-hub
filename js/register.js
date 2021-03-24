@@ -8,7 +8,6 @@ let project=document.getElementById('project');
 let email=document.getElementById('email');
 let userName=document.getElementById('userName');
 form.addEventListener('submit', volunteerInformation);
-
 function volunteerInformation(event){
   let counter=0;
   // event.preventDefault();
