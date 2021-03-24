@@ -2,11 +2,11 @@
 
 
 ## Members of the Alpha team:
-
-Bader Al-Shawabkeh.
-Basel Atalla.
-Issa Al-Aiash.
-Yasmeen Al-Khalili.
+1. Ayah Al-Barik.
+2. Bader Al-Shawabkeh.
+3. Basel Atalla.
+4. Issa Al-Aiash.
+5. Yasmeen Al-Khalili.
 
 ## Our project:
 
