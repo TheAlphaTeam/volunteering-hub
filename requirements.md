@@ -31,8 +31,7 @@ What make you care is that you are already care about hleping others.
 2. About us page: presentin info about team members.
 
 (stretch goal) 
-1. every volunteer will have a special Id.
-2. a page present the volunteers of each project by their Ids.
+1. a page present the volunteers of each project by their names.
 
 
 ## Data Flow
