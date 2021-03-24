@@ -2,9 +2,9 @@
 
 
 ## Members of the Alpha team:
-
-Bader Al-Shawabkeh.
-Basel Atalla.
+1. Ayah Al-Barik.
+2. Bader Al-Shawabkeh.
+3. Basel Atalla.
 Issa Al-Aiash.
 Yasmeen Al-Khalili.
 
