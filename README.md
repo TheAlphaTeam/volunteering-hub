@@ -2,11 +2,11 @@
 
 
 ## Members of the Alpha team:
-
-Bader Al-Shawabkeh.
-Basel Atalla.
-Issa Al-Aiash.
-Yasmeen Al-Khalili.
+1. Ayah Al-Barik.
+2. Bader Al-Shawabkeh.
+3. Basel Atalla.
+4. Issa Al-Aiash.
+5. Yasmeen Al-Khalili.
 
 ## Our project:
 
@@ -57,8 +57,7 @@ version: 1.0.0
 2. As a user, I want that whenever I like a volunteering project to register it with my information on another page.
 3. As a user, I would like to see a chart presenting the status of each project which is updated automatically.
 4. As a user, I would like to see a page about the owners of the web page including a brief bio.
-5. (stretch goal) As a volunteer, I want to have a special Id.
-6. (stretch goal) As a, I want to see a page present the volunteers of each project by their Ids.
+5. (stretch goal) As a, I want to see a page present the volunteers of each project by their names.
 
 
 

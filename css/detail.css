@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(234,149,49); 
+    background-image : url("https://s3.img-b.com/image/private/t_base,c_pad,f_auto,dpr_2,w_480,h_480/product/shaw/shaw-cs37p-00100-9459802.jpg");
+}
+ h1{
+   margin-top: 100px;
+   text-align: center;
+   margin-bottom: 100px;
+   font-family: 'Dancing Script', cursive;
+   font-size: 70px;
+ } 
+
+  h2{
+    text-align: center;
+    color: rgb(234,149,49); 
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+ main li {
+   list-style: decimal;
+   margin: 16px;
+   margin-left: 23px;
+ }
+
+
+  /* The grid: Three equal columns that floats next to each other */
+  .column0 {
+    float: left;
+    width: 35%;
+    height: 215px;
+    position: relative;
+    left: 130px;
+    padding: 50px;
+    text-align: center;
+    font-size: 27px;
+    cursor: pointer;
+    background-image: url(../img/back2.jpg);
+    border: 2px solid rgb(234,149,49); 
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-repeat: no-repeat ;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Bangers', cursive;
+       letter-spacing:5px;
+  }
+  .column1 {
+    float: right;
+    position: relative;
+    right: 130px;
+    width: 35%;
+    height: 215px;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    background-image: url(../img/back2.jpg);
+    border: 2px solid rgb(234,149,49); 
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-repeat: no-repeat ;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: 'Bangers', cursive;
+    letter-spacing:5px;
+
+  }
+  
+  .containerTab {
+    padding: 20px;
+    color: white;
+    margin-bottom: 5px;
+    overflow-y: auto ;
+    overflow-x: hidden;
+    width: 35%;
+    margin-left: 131px;
+    height: 200px;
+   font-size: 25px;
+   background-color: rgb(234,149,49);
+   border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1.9px solid white;
+    display:none;
+    font-weight: bold;
+  }
+
+  .containerTab1 {
+    padding: 20px;
+    color: white;
+    margin-bottom: 5px;
+    overflow-y: auto ;
+    overflow-x: hidden;
+    width: 35%;
+    margin-left: 55.5%;
+    height: 200px;
+    font-size: 25px;
+    background-color: rgb(234,149,49);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1.9px solid white;
+    display:none;
+    font-weight: bold;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 3px;
+  }
+  
+  /*.row1:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin: 3px;
+
+  }
+  /* Closable button inside the container tab */
+  .closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: all-scroll;
+    
+  }
