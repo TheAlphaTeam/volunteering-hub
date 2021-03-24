@@ -195,15 +195,15 @@
    .goToRegister{
      padding: 8px;
      font-family: 'Dancing Script', cursive;
-     background-color: rgb(234,149,49);
-     color: white;
+     background-color: antiquewhite;
+     color: black;
      font-size: xx-large;
      border-radius: 8px ;
      float: right;
    }
    .goToRegister:hover{
-     background-color: antiquewhite;
-     color: rgb(234,149,49);
+     background-color:burlywood;;
+     color: antiquewhite;
    }
    /* Closable button inside the container tab */
    .closebottun{
